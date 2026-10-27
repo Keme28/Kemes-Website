@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <!-- Base Background -->
+  <rect width="1200" height="630" fill="#0C0C0D"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#EFEAE0" fill-opacity="0.12"/>
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="60%">
+      <stop offset="60%" stop-color="#0C0C0D" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#050506" stop-opacity="0.8"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#vignette)"/>
+
+  <!-- Outer Hairline Border & Engineering Crop Marks -->
+  <rect x="40" y="40" width="1120" height="550" rx="3" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Corner Marks -->
+  <path d="M 30 40 L 40 40 L 40 30" stroke="#FF4F1F" stroke-width="2" fill="none"/>
+  <path d="M 1170 40 L 1160 40 L 1160 30" stroke="#FF4F1F" stroke-width="2" fill="none"/>
+  <path d="M 30 590 L 40 590 L 40 600" stroke="#FF4F1F" stroke-width="2" fill="none"/>
+  <path d="M 1170 590 L 1160 590 L 1160 600" stroke="#FF4F1F" stroke-width="2" fill="none"/>
+
+  <!-- Node Header -->
+  <g transform="translate(80, 95)">
+    <rect width="170" height="28" rx="2" fill="#151517" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <circle cx="16" cy="14" r="3" fill="#FF4F1F"/>
+    <text x="30" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#EFEAE0" letter-spacing="2">NODE: TRIGGER_01</text>
+  </g>
+  <text x="1120" y="112" font-family="'JetBrains Mono', monospace" font-size="12" fill="#A8A398" text-anchor="end" letter-spacing="1">LAGOS, NG · WAT UTC+1 · 2026</text>
+
+  <!-- Role Line -->
+  <g transform="translate(80, 185)">
+    <line x1="0" y1="0" x2="32" y2="0" stroke="#FF4F1F" stroke-width="2"/>
+    <text x="46" y="5" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" fill="#FF4F1F" letter-spacing="3">AI AUTOMATION SPECIALIST &amp; FULL-STACK PROGRAMMER</text>
+  </g>
+
+  <!-- Colossal Name in Instrument Serif style -->
+  <text x="80" y="295" font-family="'Instrument Serif', serif" font-size="94" font-weight="400" fill="#EFEAE0" letter-spacing="-2">Ukemeobong</text>
+  <text x="80" y="390" font-family="'Instrument Serif', serif" font-size="94" font-style="italic" font-weight="400" fill="#EFEAE0" letter-spacing="-2">Uduak Umo-Udofia</text>
+
+  <!-- Positioning Line -->
+  <text x="80" y="455" font-family="'Instrument Serif', serif" font-size="28" font-style="italic" fill="#EFEAE0">“I make the boring stuff go away.”</text>
+  <text x="80" y="488" font-family="'Inter Tight', sans-serif" font-size="16" fill="#A8A398">Custom web applications wired directly into intelligent self-executing workflows.</text>
+
+  <!-- Bottom Telemetry Bar -->
+  <g transform="translate(80, 545)">
+    <circle cx="6" cy="6" r="4" fill="#B6FF5C"/>
+    <text x="20" y="10" font-family="'JetBrains Mono', monospace" font-size="12" fill="#B6FF5C" font-weight="600">SYSTEM OPERATIONAL</text>
+    <text x="320" y="10" font-family="'JetBrains Mono', monospace" font-size="12" fill="#A8A398">PYTHON · TYPESCRIPT · N8N · RAG · MCP</text>
+    <text x="1040" y="10" font-family="'JetBrains Mono', monospace" font-size="12" fill="#FF4F1F" font-weight="700" text-anchor="end">KEME.DEV ↗</text>
+  </g>
+</svg>

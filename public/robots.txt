@@ -1,0 +1,64 @@
+# ==============================================================================
+# ROBOTS.TXT — Ukemeobong Uduak Umo-Udofia (Keme) Portfolio
+# Canonical Domain: https://ukeme.dev
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. ALLOW SEARCH ENGINES (Index public portfolio pages)
+# ------------------------------------------------------------------------------
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Bingbot
+User-agent: Slurp
+User-agent: DuckDuckBot
+User-agent: Baiduspider
+User-agent: YandexBot
+User-agent: Sogou
+User-agent: Exabot
+Allow: /
+Disallow: /api/
+
+# ------------------------------------------------------------------------------
+# 2. ALLOW SOCIAL & OPEN GRAPH LINK PREVIEW CRAWLERS
+# ------------------------------------------------------------------------------
+User-agent: facebookexternalhit
+User-agent: Twitterbot
+User-agent: LinkedInBot
+User-agent: WhatsApp
+User-agent: TelegramBot
+User-agent: Discordbot
+User-agent: Slackbot
+User-agent: SkypeUriPreview
+Allow: /
+
+# ------------------------------------------------------------------------------
+# 3. BLOCK AI SCRAPERS & MODEL TRAINING CRAWLERS
+# ------------------------------------------------------------------------------
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: CCBot
+User-agent: anthropic-ai
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: cohere-ai
+User-agent: PerplexityBot
+User-agent: ByteSpider
+User-agent: Bytespider
+User-agent: Diffbot
+User-agent: FacebookBot
+User-agent: Google-Extended
+User-agent: ImagesiftBot
+User-agent: Omgilibot
+User-agent: Omgili
+User-agent: Timpibot
+User-agent: Amazonbot
+Disallow: /
+
+# ------------------------------------------------------------------------------
+# 4. DEFAULT RULE FOR ALL OTHER CRAWLERS
+# ------------------------------------------------------------------------------
+User-agent: *
+Disallow: /api/
+Allow: /
+
+Sitemap: https://ukeme.dev/sitemap.xml
